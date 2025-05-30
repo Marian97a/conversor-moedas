@@ -33,22 +33,24 @@ Desenvolver um conversor funcional que:
 
 === Conversor de Moedas ===
 
-USD para BRL
+1- USD para BRL
 
-EUR para BRL
+2- EUR para BRL
 
-GBP para BRL
+3- GBP para BRL
 
-BRL para USD
+4- BRL para USD
 
-BRL para EUR
+5- BRL para EUR
 
-BRL para GBP
+6- BRL para GBP
 
-Sair
+0- Sair
 
 Escolha uma opção: 1
-Informe o valor a converter: 100
+
+Informe o valor a converter: 100.00
+
 100.00 USD = 521.30 BRL
 
 ---
@@ -82,5 +84,5 @@ Por sua chave real, que pode ser obtida gratuitamente em:
 | -------------------------- | --------------------------------------------------------- |
 | `Main.java`                | Inicia o programa e chama o menu                          |
 | `Menu.java`                | Exibe opções de conversão e processa interações           |
-| `CurrencyConverter.java`   | Gerencia o cálculo de conversão entre moedas              |
-| `ExchangeRateService.java` | Faz requisição HTTP e extrai taxa da resposta JSON da API |
+| `ConverterMoeda.java`      | Gerencia o cálculo de conversão entre moedas              |
+| `ConexaoApi.java`          | Faz requisição HTTP e extrai taxa da resposta JSON da API |
